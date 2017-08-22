@@ -79,11 +79,11 @@ public class GridFragment extends Fragment {
 
     private void createGrid() {
         grid1 = Grid.createGrid(5, 6);
-//        grid2 = Grid.createGrid(5, 5);
-//        grid3 = Grid.createGrid(5, 5);
+       // grid1 = Grid.createGrid(4,4);
+       // grid3 = Grid.createGrid(5, 5);
 
-        gridAdapter.add(grid1.getGridString());
-//        gridAdapter.add(grid2.getGridString());
+       gridAdapter.add(grid1.getGridString());
+     //  gridAdapter.add(grid1.getGridString());
 //        gridAdapter.add(grid3.getGridString());
     }
 }
